@@ -184,10 +184,16 @@ Light detection and ranging (LiDAR) uses active remote sensing by firing a "lase
 
 ---
 
+class: center, middle
+
+## But what are we trying to measure?
+
+---
+
 layout: false
 
 .pull-left[
-## There are many facets of biodiversity to measure!
+## There are many facets of biodiversity!
 
 &lt;br&gt;
 
@@ -205,7 +211,7 @@ Each facet provides its own challenges and opportunities and require different m
 layout: false
 
 .pull-left[
-## There are many facets of biodiversity to measure!
+## There are many facets of biodiversity!
 
 An advantage of remote sensing is that it can directly measure the structure, composition and function of biodiversity... 
 
@@ -225,6 +231,12 @@ An advantage of remote sensing is that it can directly measure the structure, co
 .footnote[https://geobon.org/]
 
 ]
+
+---
+
+class: center, middle
+
+##Multispectral remote sensing 
 
 ---
 
@@ -266,111 +278,9 @@ class: center
 
 ---
 
-class: center, middle
-
-## But what about metrics like species, functional and phylogenetic diversity?
-
----
-
-layout: false
-
-.pull-left[
-## Functional diversity?
-
-&lt;img src="images/peninsula_lidar.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
-
-Proteaceae shrubs (dark green) surrounded by low shrubs, forbs and graminoids at Silvermine, TMNP. 
-
-.footnote[Data from City of Cape Town]
-
-]
-
-.pull-right[
-&lt;img src="images/purkis_klemas2011_lidar.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
-
-Light detection and ranging (LiDAR) allows you to measure topography and the vertical structure of vegetation.
-
-.footnote[Purkis and Klemas 2011]
-]
-
----
-
-layout: false
-
-.pull-left[
-## Functional diversity?
-
-Imaging spectroscopy ("hyperspectral" remote sensing) allows direct measurement of leaf traits.
-
-&lt;img src="images/cawse2021_spectra.png" alt="" width="92%" style="display: block; margin: auto auto auto 0;" /&gt;
-
-]
-
-.pull-right[
-&lt;img src="images/peninsula_hyperspec.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
-]
-
----
-
-layout: false
-
-&lt;img src="images/traitmapping.png" alt="" width="100%" /&gt;
-
----
-
-layout: false
-
-## Phylogenetic diversity?
-
-&lt;img src="images/meireles2020.jpg" alt="" width="70%" style="display: block; margin: auto;" /&gt;
-
-.left[.footnote[Meireles et al. 2020]]
-
-Leaf spectra are phylogenetically conserved for some regions, so it's possible that we'll be able to discern lineages using imaging spectroscopy...
-
----
-
-layout: false
-
-.pull-left[
-## Identifying species?
-
-We can monitor populations of large species..., but identifying all species present...?
-
-&lt;img src="images/machine_learning.png" alt="" width="70%" style="display: block; margin: auto;" /&gt;
-
-.footnote[https://xkcd.com/1838/]
-]
-
-.pull-right[
-&lt;img src="images/cedars_pic.png" alt="" width="75%" style="display: block; margin: auto;" /&gt;&lt;img src="images/cedars_mapped.png" alt="" width="75%" style="display: block; margin: auto;" /&gt;
-
-.footnote[Hadebe 2021 MSc thesis]
-]
-
----
-
-layout: false
-
-## Mapping cedars with Lidar?
-
-.pull-left[
-
-&lt;img src="images/bioscape_cedars_driehoek_rgb.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
-
-]
-
-.pull-right[
-&lt;img src="images/bioscape_cedars_driehoek_lvis.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
-
-]
-
-.footnote[De Rif cedar plantation above Driehoek | www.bioscape.io/data]
----
-
 class: center
 
-## There are challenges and limitations...
+## But there are challenges and limitations...
 
 &lt;img src="images/schimel2020_scale.png" alt="" width="50%" style="display: block; margin: auto;" /&gt;
 
@@ -378,13 +288,9 @@ class: center
 
 ---
 
-class: center
+class: center, middle
 
-## But this is what fancy modelling and proxies are for...
-
-&lt;img src="images/jetz2016.png" alt="" width="43%" style="display: block; margin: auto;" /&gt;
-
-.left[.footnote[Jetz et al. 2016]]
+## What about hyperspectral data?
 
 ---
 
@@ -424,20 +330,127 @@ class: center
 layout: false
 
 .pull-left[
-## Combining remote sensing and in situ data
+## Mapping traits...
 
-Using remotely sensed environmental data to inform species distribution models (SDMs)
+Imaging spectroscopy ("hyperspectral" remote sensing) allows direct measurement of leaf traits.
 
-&lt;img src="images/wilson2016.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
-
-E.g. Observed cloud frequency from the MODIS satellite is a better predictor of the distribution of _Protea cynaroides_ than interpolated precipitation.
-
-.footnote[Wilson and Jetz 2016]
+&lt;img src="images/cawse2021_spectra.png" alt="" width="92%" style="display: block; margin: auto auto auto 0;" /&gt;
 
 ]
 
 .pull-right[
-&lt;img src="images/kingprotea.jpg" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/peninsula_hyperspec.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+layout: false
+
+&lt;img src="images/traitmapping.png" alt="" width="100%" /&gt;
+
+---
+
+## Potential uses of trait maps?
+
+.pull-left[
+
+&lt;img src="images/ashleigh.png" alt="" width="70%" style="display: block; margin: auto;" /&gt;
+
+MSc candidate using trait maps to infer the legacy impacts of invasive alien plants.
+
+]
+
+.pull-right[
+
+&lt;img src="images/sam.png" alt="" width="70%" style="display: block; margin: auto;" /&gt;
+
+PhD candidate using traits to map landscape flammability.
+
+]
+
+---
+
+layout: false
+
+## Phylogenetic diversity?
+
+&lt;img src="images/meireles2020.jpg" alt="" width="70%" style="display: block; margin: auto;" /&gt;
+
+.left[.footnote[Meireles et al. 2020]]
+
+Leaf spectra are phylogenetically conserved for some regions, so it's possible that we'll be able to discern lineages using imaging spectroscopy...
+
+---
+
+layout: false
+
+.pull-left[
+## The Clanwilliam Cedar
+
+An iconic critically endangered species...
+
+&lt;img src="images/cedars_pic.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="images/cedar_door.jpg" alt="" width="62%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.footnote[Historically overharvested for timber, but still declining despite protection.]
+
+---
+
+layout: false
+
+.pull-left[
+## The Clanwilliam Cedar
+
+&lt;img src="images/cedars_mapped.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+Manual mapping from 50cm RGB aerial imagery (2013)
+
+.footnote[]
+]
+
+.pull-right[
+&lt;img src="images/CederbergMap.jpeg" alt="" width="92%" style="display: block; margin: auto;" /&gt;
+
+  13,419 cedar tree localities!!!
+
+.footnote[Slingsby Maps - _Hike the Cederberg_]
+]
+
+---
+
+layout: false
+
+## The Clanwilliam Cedar
+
+.pull-left[
+
+&lt;img src="images/slingsby2019title.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="images/slingsby2019full.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[]
+]
+
+.pull-right[
+
+Field validation:
+
+- Typically only adult trees or clumps with &gt;4m `\(^2\)` live canopy were reliably identified from aerial imagery, so many smaller individuals are missed.
+- The majority of trees were dead, but these were not apparent in the imagery.
+- Trees that had recently died (dead leaves still present) outnumbered live trees by a ratio of 2:1.
+
+&lt;br&gt;
+
+Useful baseline and suggestive of rapid change, but couldn't be used to investigate change over time.
+
+.footnote[Slingsby and Slingsby 2019, _PeerJ_]
 ]
 
 ---
@@ -445,92 +458,173 @@ E.g. Observed cloud frequency from the MODIS satellite is a better predictor of 
 layout: false
 
 .pull-left[
-## The Spectral Diversity Hypothesis
+## The Clanwilliam Cedar
 
-Is spectral diversity a good proxy for biotic diversity?
+&lt;img src="images/jess.jpg" alt="" width="100%" style="display: block; margin: auto;" /&gt;
 
-&lt;img src="images/frye2021map.png" alt="" width="100%" style="display: block; margin: auto auto auto 0;" /&gt;
+Cedar resurvey with 2022 imagery...
 
+.footnote[Jessica Prevôst, Honours thesis]
 ]
 
 .pull-right[
-&lt;img src="images/frye2021fig.png" alt="" width="90%" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/cedar_points_plot_legend_inside.png" alt="" width="85%" style="display: block; margin: auto;" /&gt;
 
-A test looking at spectral diversity from leaf spectra for 1210 species across 1267 plots supports the hypothesis **at the leaf level...**
+]
 
-.footnote[Frye et al. 2021]
+---
+
+## The Clanwilliam Cedar
+
+&lt;img src="images/cedarresultsoverview.png" alt="" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## The Clanwilliam Cedar - correlates of mortality?
+
+&lt;br&gt;
+
+Mortality ~ Environmental variables?
+
+--
+
+&lt;br&gt;
+
+BUT WAIT!
+
+This is the basis of species distribution modelling...
+
+Since trees only die where they occur, all we're going to get is the distribution of trees, not the distribution of tree mortality...
+
+---
+
+## The Clanwilliam Cedar - correlates of mortality?
+
+.pull-left[
+
+&lt;img src="images/eisaguirre2025.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+A Bayesian thinned spatial point process (SPP) modelling framework that couples occurrence with a mortality process to formally treat mortality events across the landscape as a spatial process.
+
+Developed for modelling animal mortality within their known habitat use based on telemetry data.
+
+.footnote[Eisaguirre et al 2025]
+]
+
+.pull-right[
+
+&lt;img src="images/cedarmodel.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+- 30m digital elevation model (DEM)
+- CapeNature fire records
+- CHELSA downscaled reanalysis climate data
+
+]
+
+---
+
+## The Clanwilliam Cedar - correlates of mortality?
+
+
+&lt;img src="images/cedarmodelmaps.png" alt="" width="75%" style="display: block; margin: auto;" /&gt;
+
+.footnote[Prevôst et al. _in prep_]
+
+---
+
+## The Clanwilliam Cedar - correlates of mortality?
+
+.pull-left[
+
+&lt;img src="images/cedarmodelfire.png" alt="" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+.footnote[Prevôst et al. _in prep_]
+]
+
+.pull-right[
+
+&lt;img src="images/cedarmodelmat.png" alt="" width="80%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+.pull-left[
+
+## The Clanwilliam Cedar
+
+### Conclusions and limitations
+
+- Alarmingly high mortality (&gt;17% in a decade)!
+- Mortality is associated with greater numbers of fires and faster warming
+
+BUT...
+
+- Climate data were coarse (1km)
+- Still to include field validation
+
+&lt;br&gt;
+
+Sadly, ±90% of the Cederberg burnt in the past year, so likely that many more trees have died...
+]
+
+.pull-right[
+
+&lt;img src="images/cedarboys.jpg" alt="" width="80%" style="display: block; margin: auto;" /&gt;
+
 ]
 
 ---
 
 layout: false
 
+## Mapping cedars with Lidar?
+
 .pull-left[
-## The Spectral Diversity Hypothesis
 
-
-&lt;img src="images/vanleeuwen2020_scale.png" alt="" width="85%" style="display: block; margin: auto auto auto 0;" /&gt;
+&lt;img src="images/bioscape_cedars_driehoek_rgb.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
 
 ]
 
 .pull-right[
-&lt;img src="images/vanleeuwen2020b.png" alt="" width="70%" style="display: block; margin: auto;" /&gt;
+&lt;img src="images/bioscape_cedars_driehoek_lvis.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
 
-But canopy reflectance is more complex...
-
-Leaf angle, shadow, density, etc affect the spectral reflectance of vegetation, reducing our ability to identify and map species - especially as the resolution of the imagery coarsens.
-
-.footnote[van Leeuwen et al. 2021]
 ]
+
+.footnote[De Rif cedar plantation above Driehoek | www.bioscape.io/data]
+
+---
+
+class: center, middle
+
+## Mapping cedars with hyperspectral imagery?
 
 ---
 
 layout: false
 
+## Mapping genotypes(?) with hyperspectral imagery?
+
 .pull-left[
-### Environmental heterogeneity
 
-Another approach is just to map and monitor environmental heterogeneity
+&lt;img src="images/czyz2020.png" alt="" width="100%" style="display: block; margin: auto;" /&gt;
 
-####_"Conserving nature's stage"_
-
-The Nature Conservancy and others are using this approach to identify parcels of Earth that are valuable for their capacity to support diverse life forms today and into the future
-
-Typically identified based on their abiotic heterogeneity or geodiversity, much of which can be mapped and/or monitored with remote sensing - topography, climate, soils, etc
-
+.footnote[Czyż et al. 2020, _Ecology and Evolution_]
 ]
 
 .pull-right[
-&lt;img src="images/humboldt.jpg" alt="" width="90%" style="display: block; margin: auto;" /&gt;
-.footnote[Alexander von Humboldt]
+&lt;img src="images/cedarvariants.jpeg" alt="" width="100%" style="display: block; margin: auto;" /&gt;
+
+.footnote[Some cedar colour morphs... Genotypes?]
 ]
-
----
-class: middle
-
-## Take-home
-
-&gt;*Remote sensing is a rapidly growing field that is seen as the holy grail for mapping and monitoring biodiversity (and Essential Biodiversity Variables) at high spatial resolution from local to global scales.*
-
-&gt;*There are many remote sensing methods and tools, and these are constantly improving.*
-
-&gt;*While there are many limitations (e.g. spatial resolution), many can be addressed with modelling approaches, and are being overcome as the technology and methods improve.*
-
-&gt;*Remote sensing approaches must be paired with _in situ_ observations to "ground-truth" and calibrate/validate that they do reflect reality on the ground.*
-
-&gt;*Remote sensing can be valuable for mapping habitat variables such as climate, topography, etc that can inform inference about species distributions or other proxies for biodiversity like environmental heterogeneity or spectral diversity.*
 
 ---
 class: center, middle
 
 # Thanks!
 
-Slides created via the R packages:
-
-[**xaringan**](https://github.com/yihui/xaringan)&lt;br&gt;
-[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
-
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+More at www.plantecolo.gy and www.bioscape.io
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
