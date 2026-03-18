@@ -119,13 +119,13 @@ layout: false
 
 .pull-left[
 
+- NASA's first biodiversity-focused field campaign
 - $>$ 150 scientists and conservation practitioners
 - 19 teams (mixed US, RSA, other)
+- fundamental and applied science
 - terrestrial and aquatic
 - 3 planes
 - 6 instruments (2 x V-SWIR imaging spectrometers, hyperspectral thermal, multispectral (RGB + NIR) and 2 x LiDAR)
-- fundamental and applied science
-- mostly NASA funded, + NRF, UNESCO, others
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/bioscape_kumu_hex.png")
@@ -152,7 +152,7 @@ knitr::include_graphics("images/Bioscape infographic_e3.jpg")
 
 class: center, middle
 
-## But how do we actually measure biodiversity with remote sensing?
+## The technology
 
 ---
 
@@ -353,6 +353,8 @@ knitr::include_graphics("images/schimel2020_scale.png")
 
 .left[.footnote[Schimel et al. 2020]]
 
+.pull-right[.footnote[The mixed pixel problem...]]
+
 ---
 
 class: center, middle
@@ -437,7 +439,7 @@ knitr::include_graphics("images/traitmapping.png")
 knitr::include_graphics("images/ashleigh.png")
 ```
 
-MSc candidate using trait maps to infer the legacy impacts of invasive alien plants.
+Using trait maps to infer the legacy impacts of invasive alien plants.
 
 ]
 
@@ -447,23 +449,15 @@ MSc candidate using trait maps to infer the legacy impacts of invasive alien pla
 knitr::include_graphics("images/sam.png")
 ```
 
-PhD candidate using traits to map landscape flammability.
+Using traits to map landscape flammability.
 
 ]
 
 ---
 
-layout: false
+class: center, middle
 
-## Phylogenetic diversity?
-
-```{r echo = F, fig.align = 'center', out.width = '70%'}
-knitr::include_graphics("images/meireles2020.jpg")
-```
-
-.left[.footnote[Meireles et al. 2020]]
-
-Leaf spectra are phylogenetically conserved for some regions, so it's possible that we'll be able to discern lineages using imaging spectroscopy...
+## Very high resolution multispectral data?
 
 ---
 
@@ -561,7 +555,7 @@ layout: false
 knitr::include_graphics("images/jess.jpg")
 ```
 
-Cedar resurvey with 2022 imagery...
+Cedar decadal resurvey with 2022 imagery...
 
 .footnote[Jessica Prevôst, Honours thesis]
 ]
@@ -622,6 +616,7 @@ Developed for modelling animal mortality within their known habitat use based on
 knitr::include_graphics("images/cedarmodel.png")
 ```
 
+- Joint model of occurrence and mortality
 - 30m digital elevation model (DEM)
 - CapeNature fire records
 - CHELSA downscaled reanalysis climate data
@@ -637,7 +632,7 @@ knitr::include_graphics("images/cedarmodel.png")
 knitr::include_graphics("images/cedarmodelmaps.png")
 ```
 
-.footnote[Prevôst et al. _in prep_]
+.footnote[Prevôst and Slingsby _in prep_]
 
 ---
 
@@ -650,7 +645,7 @@ knitr::include_graphics("images/cedarmodelfire.png")
 ```
 
 
-.footnote[Prevôst et al. _in prep_]
+.footnote[Prevôst and Slingsby _in prep_]
 ]
 
 .pull-right[
@@ -723,13 +718,15 @@ class: center, middle
 
 layout: false
 
-## Mapping genotypes(?) with hyperspectral imagery?
+## Mapping genotypes with hyperspectral imagery?
 
 .pull-left[
 
 ```{r echo = F, fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("images/czyz2020.png")
 ```
+
+A bit of a holy grail for remote sensing of biodiversity is to be able to map genetic variation, which would be a game changer for conservation and evolutionary biology.
 
 .footnote[Czyż et al. 2020, _Ecology and Evolution_]
 ]
@@ -740,6 +737,65 @@ knitr::include_graphics("images/cedarvariants.jpeg")
 ```
 
 .footnote[Some cedar colour morphs... Genotypes?]
+]
+
+---
+
+layout: false
+
+## Mapping cedars with hyperspectral imagery?
+
+.pull-left[
+
+```{r echo = F, fig.align = 'center', out.width = '55%'}
+knitr::include_graphics("images/spectrometer.jpg")
+knitr::include_graphics("images/cedarspectra.png")
+```
+
+.footnote[Leaf level spectra show promising differences between morphs.]
+]
+
+.pull-right[
+```{r echo = F, fig.align = 'center', out.width = '98%'}
+knitr::include_graphics("images/cedarunmixing.png")
+```
+
+.footnote[Mapping from imagery does not (Prevôst 2025, _Honours_).]
+]
+
+---
+
+layout: false
+
+## Mapping _**milkwoods**_ with hyperspectral imagery
+
+.pull-left[
+
+```{r echo = F, fig.align = 'center', out.width = '40%'}
+knitr::include_graphics("images/milkwoodleaves.png")
+knitr::include_graphics("images/milkwooddistribution.png")
+knitr::include_graphics("images/milkwoodunderstorey.png")
+```
+
+<br>
+
+```{r echo = F, fig.align = 'center', out.width = '100%'}
+#knitr::include_graphics("images/milkwoodunderstorey.png")
+```
+
+]
+
+.pull-right[
+
+```{r echo = F, fig.align = 'left', out.width = '100%'}
+knitr::include_graphics("images/ANG_Agulhas.png")
+```
+
+- Easier to measure (leaf and canopy)
+- Larger distribution (and potential for variation)
+- Extensive hyperspectral imagery from BioSCape
+
+.footnote[Tallulah Glasby (PhD student)]
 ]
 
 ---
